@@ -1,0 +1,12 @@
+name: flowwa
+title: flowwa
+username: avstat
+account: avstat
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 15065781
+bundleId: 10603584
+url: https://avstat.shinyapps.io/flowwa/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
