@@ -516,6 +516,20 @@ ui <- dashboardPage(
                       style = "border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);"
                     )
                 )
+              ),
+              
+              # Video Tutorial
+              fluidRow(
+                box(title = tagList(icon("play-circle", style = "color:white;"), span("Video: Tutorial Penggunaan Dashboard?", style = "color:white;")),
+                    width = 12, status = "danger", solidHeader = TRUE,
+                    tags$iframe(
+                      width = "100%", height = "420",
+                      src = "https://www.youtube.com/embed/M2YYWjItP9Q",  # <-- ini sudah benar
+                      frameborder = "0", allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+                      allowfullscreen = NA,
+                      style = "border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);"
+                    )
+                )
               )
       ),
       
